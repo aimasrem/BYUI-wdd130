@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Playfair+Display:wght@900&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Playfair+Display:wght@900&display=swap');
 
 #content {
     max-width:1600px;
@@ -9,6 +9,7 @@ nav a {
     text-align: center;
     color: #010d10;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -17,8 +18,8 @@ nav a {
 .button-box {
     text-align: center;
 }
-main section
-    {text-align: center;
+main section{
+    text-align: center;
 }
 
 #background {
@@ -27,10 +28,17 @@ main section
 
 body {
     background-color : #e8f4ed;
+    font-family: 'Georgia','Time New Roman', sans-serif;
+    font-size: 22px;
+    margin: 0;    
+    padding: 0;
 }
 
+h2 {
+    margin: 0;
+}
 header{
-    background-color : #12ac1f;      
+    background-color : #12ac1f;
 }
 
 nav a:hover {
@@ -42,27 +50,40 @@ nav a:hover {
     background-color : #bdec31;
     color: rgb(51, 9, 221);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
 .book:hover, .join:hover{
     background-color : #bdec31;
     color: black;
 }
 #background{
-    background-color : #12ac1f;;
+    background-color : #12ac1f;
 }
 .msg{
     background-color : rgb(26, 195, 237);
+    line-height: 1,5em;
+    padding: 35px;
 }
 footer{
     background-color : rgb(26, 195, 237);
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p a:hover {
     text-decoration: underline;
 }
 .home-title{
     color: #bdec31;
+    font-family:'Verdana', 'Tahoma', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
+
 h4 {
     color: black;
 }
@@ -73,6 +94,8 @@ h4 {
 
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     color: black;
@@ -84,6 +107,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -92,3 +116,18 @@ footer a:hover {
 footer p {
     font-size: 1.2em;
 }   
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.card-img{
+    border: 10px solid #12ac1f;   
+}
+main section img{
+    box-sizing: border-box;
+}
+.rivers-card, .caming-card, .rapids-card {
+    margin:200px 0;
+}
