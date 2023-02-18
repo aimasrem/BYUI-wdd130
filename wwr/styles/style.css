@@ -90,7 +90,7 @@ nav a:hover {
 }
 .msg {
     background-color : rgb(26, 195, 237);
-    padding: 50px;
+    padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
