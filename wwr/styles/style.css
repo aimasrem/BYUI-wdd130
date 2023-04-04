@@ -6,7 +6,7 @@
 }
 nav a {
     text-align : center;
-    color: #010d10;
+    color: #100101;
     text-decoration:none;
     padding: 35px;
 }
@@ -63,8 +63,8 @@ nav {
     align-items: center;
 }
 nav a:hover {
-    background-color : black;
-    color:white;
+    background-color :#bdec31;
+    color:black;
 }
 .book, .join{
     background-color:  #bdec31;
@@ -78,7 +78,7 @@ nav a:hover {
 }
 .book:hover, .join:hover{
     background-color:#bdec31;
-    color: black;
+    color: rgb(51, 9, 221);
 }
 #background {
     height : 700px;
@@ -118,7 +118,7 @@ h4 {
 }
 .msg p {
     color: black;
-    font-family: 'Georgia','Time New Roman', sans-serif;
+    font-family: 'Playfair','Time New Roman', sans-serif;
     font-size: .8em;
     padding-bottom: 15px;
 }
@@ -186,7 +186,73 @@ footer .social img {
 }
 main section img{
     box-sizing: border-box;
-}  
+} 
+
+/*Styles Subpage (Page 2) - FAQ - Line 192 to line 254*/
+.FAQ-content {
+    position: relative;
+}
+
+#Faq-img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.page2-img{
+    background-size: auto;
+}
+
+#page2-msg h1{
+    text-align: center;
+    font-size: 2.8em;
+    font-family: 'Plaifair','Time New Roman', sans-serif;
+    color:black;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.page2-msg h2{
+    text-align: center;
+}
+
+/* Style Accordion - Details/Summary*/
+ details summary {
+    max-width : auto; 
+}
+
+details {
+    cursor: pointer;
+    margin: 100px auto; 
+ }
+details summary {
+    background-color: #bdec31;
+    color: black;
+    padding: 50px;
+    width: 94%;
+    text-align: auto;
+    font-size: 1.5em ;
+    font-weight:bold;
+    border-radius: 5px;
+    outline: none;
+    transition: .6s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 500px;
+}
+
+/* Add a background color when you move the mouse over the "question"(hover) */
+details summary:hover {
+    background-color: #1fe1ff;
+}     
+
+p{
+  padding: 60px; 
+  text-align: justify;
+  font-family: 'Playfair','Time New Roman', sans-serif;
+  font-size: 1.8em ;
+  color: black;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -229,3 +295,4 @@ main section img{
         margin-top: 25px;
     }
 }
+
