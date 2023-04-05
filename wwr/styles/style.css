@@ -218,7 +218,7 @@ main section img{
 
 /* Style Accordion - Details/Summary*/
  details summary {
-    max-width : auto; 
+    max-width : 95%; 
 }
 
 details {
@@ -230,7 +230,7 @@ details summary {
     color: black;
     padding: 50px;
     width: 94%;
-    text-align: auto;
+    text-align: left;
     font-size: 1.5em ;
     font-weight:bold;
     border-radius: 5px;
